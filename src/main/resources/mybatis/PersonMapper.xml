@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.etoak.springboot.springbootmapperpagehelper.dao.PersonMapper" >
+  <resultMap id="BaseResultMap" type="com.etoak.springboot.springbootmapperpagehelper.model.Person" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="age" property="age" jdbcType="INTEGER" />
+    <result column="file_name" property="fileName" jdbcType="VARCHAR" />
+    <result column="path" property="path" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    id, name, age, file_name, path
+  </sql>
+</mapper>
